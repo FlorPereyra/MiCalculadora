@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="calculadora.js"></script>
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <h1>Calculadora</h1>
+      <table>
+
+          <tr>
+
+               <td class="largo1" colspan="4" id="result">0</button></td>
+
+          </tr>
+         
+           <tr>
+             <td><button class="redondososcuros" onclick="del()">AC</button></td>
+             <td><button class="redondososcuros" onclick="add('.')">.</button></td>
+             <td><button class="redondososcuros" onclick="borradoParcial()">C</button></td>
+             <td><button class="ultimacolumna" onclick="add('/')">÷</button></td>
+           </tr>
+         
+           <tr>
+             <td><button class="redondosclaros" onclick="add('7')">7</button></td>
+             <td><button class="redondosclaros" onclick="add('8')">8</button></td>
+             <td><button class="redondosclaros" onclick="add('9')">9</button></td>
+             <td><button class="ultimacolumna" onclick="add('*')">x</button></td>
+           </tr>
+        
+           <tr>
+             <td><button class="redondosclaros" onclick="add('4')">4</button></td>
+             <td><button class="redondosclaros" onclick="add('5')">5</button></td>
+             <td><button class="redondosclaros" onclick="add('6')">6</button></td>
+             <td><button class="ultimacolumna" onclick="add('-')">-</button></td>
+           </tr>
+        
+           <tr>
+             <td><button class="redondosclaros" onclick="add('1')">1</button></td>
+             <td><button class="redondosclaros" onclick="add('2')">2</button></td>
+             <td><button class="redondosclaros" onclick="add('3')">3</button></td>
+             <td><button class="ultimacolumna" onclick="add('+')">+</button></td>
+           </tr>
+        
+           <tr>
+             <td colspan="3"><button class="largo2" onclick="add('0')">0</button></td>
+             <td><button class="ultimacolumna" onclick="calc()">=</button></td>
+           </tr>
+         
+      </table>
+
+  </body>
+</html>
